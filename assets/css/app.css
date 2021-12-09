@@ -1,0 +1,86 @@
+body{
+    background: #f4f5f9;
+    color: black;
+    padding:30px;
+    font-family: sans-serif;
+}
+
+header #filters{
+    font-weight: bold;
+}
+
+header #filters > *{
+    display: inline;
+}
+
+header #filters div > a{
+    color: black;
+    text-decoration: none;
+    margin-left: 3px;
+    padding:5px 15px;
+    border-radius: 25px;
+}
+
+header #filters div > a:hover, header #filters div > a.selected{
+    background-color: #E1E4EA;
+}
+
+.home-comp{
+    margin-top: 30px;
+}
+
+.each-email{
+    display:flex;
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px 15px;
+    border: 1px solid #CFD2DC;
+    border-radius: 6px;
+}
+
+.each-email.favorite{
+    background-color: #f2f2f2;
+}
+
+.avatar-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #E54065;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+}
+
+.each-email div.content{
+    margin-left: 25px;
+    font-size:14px;
+    color: black;
+}
+
+.each-email div.content .label{
+    font-weight: bold;
+    color: #636363;
+}
+.each-email div.content .value{
+    color: black;
+    font-weight: bold;
+}
+.each-email div.content .separator{
+    margin-top:5px;
+}
+
+.each-email div.content .separator-xs{
+    margin-top:2px;
+}
+
+.each-email-href{
+    text-decoration: none;
+}
+
+.fav-label{
+    color: #E54065;
+    font-weight: bold;
+}
